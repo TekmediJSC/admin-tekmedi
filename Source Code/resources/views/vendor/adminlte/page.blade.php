@@ -115,9 +115,11 @@
                         @yield('content_header')
                     </section>
 
+
                     <!-- Main content -->
                     <section class="content">
 
+                        @include('vendor.adminlte.partials.messages')
                         @yield('content')
 
                     </section>

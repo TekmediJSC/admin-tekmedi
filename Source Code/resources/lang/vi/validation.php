@@ -148,11 +148,9 @@ return [
         'name' => 'Tên',
         'password' => 'Mật khẩu',
         'description' => 'Mô tả',
-        'total_score' => 'Tổng số điểm',
-        'standard_score' => 'Điểm chuẩn',
         'content' => 'Nội dung',
         'icon' => 'Biểu tượng',
-        'score' => 'Số điểm'
+        'image' => 'Hình ảnh'
     ],
 
 ];

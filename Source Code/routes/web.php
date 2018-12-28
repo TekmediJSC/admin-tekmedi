@@ -24,7 +24,7 @@ Route::group([
     'middleware' => 'role:' . Role::ADMIN
 ], function () {
     Route::get('/', 'DashboardController@index');
-    Route::resource('/categories', 'CategoryController');
+    Route::resource('/home_services', 'Home\ServicesController');
     Route::resource('/news', 'NewsController');
     Route::resource('/services', 'ServiceController');
 });

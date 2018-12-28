@@ -108,20 +108,16 @@ return [
     */
 
     'menu' => [
-        'DANH MỤC',
+        'DANH MỤC CHUNG',
         [
-            'text' => 'Danh mục tin tức',
-            'url' => 'admin/categories',
-            'icon' => 'th-list',
-        ],
-        [
-            'text' => 'Tin tức',
-            'url' => 'admin/news',
-            'icon' => 'newspaper-o',
-        ],
-        [
-            'text' => 'Dịch vụ',
-            'url' => 'admin/services',
+            'text' => 'Trang chủ',
+            'icon' => 'home',
+            'submenu' => [
+                [
+                    'text' => 'Dịch vụ',
+                    'url' => 'admin/home_services',
+                ],
+            ],
         ],
         /*
         [
