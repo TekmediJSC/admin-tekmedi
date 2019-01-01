@@ -3,38 +3,38 @@
 @section('title', 'TEKMEDI')
 
 @section('content_header')
-    <h1>Dịch vụ</h1>
+    <h1>Trích dẫn</h1>
 @stop
 
 @section('content')
     <!-- Default box -->
     <div class="box">
         <div class="box-header with-border">
-            <a href="{{ route('admin.home_services.create')  }}" class="btn btn-success">Thêm mới</a>
+            <a href="{{ route('admin.home_testimonials.create')  }}" class="btn btn-success">Thêm mới</a>
         </div>
         <div class="box-body">
             <table class="table table-bordered">
                 <tbody>
                 <tr>
                     <th>Tên</th>
-                    <th>Mô tả</th>
+                    <th>Đánh giá</th>
                     <th>Hình ảnh</th>
                     <th>Hành động</th>
                 </tr>
-                @foreach($services as $service)
+                @foreach($testimonials as $testimonial)
                     <tr>
-                        <td>{{ $service->title }}</td>
-                        <td>{{ $service->description }}</td>
+                        <td>{{ $testimonial->title }}</td>
+                        <td>{{ $testimonial->description }}</td>
                         <td>
-                            <img src="{{ \App\Helpers\Url::LFMUrl($service->image) }}" style="max-height: 64px">
+                            <img src="{{ \App\Helpers\Url::LFMUrl($testimonial->image) }}" style="max-height: 64px">
                         </td>
                         <td width="150px">
-                            <a href="{{ route('admin.home_services.edit', $service->id) }}" class="btn btn-warning">
+                            <a href="{{ route('admin.home_testimonials.edit', $testimonial->id) }}" class="btn btn-warning">
                                 <i class="fa fa-edit"></i>
                             </a>
                             {!! Form::open([
                                 'class'=>'delete',
-                                'url'  => route('admin.home_services.destroy', $service->id),
+                                'url'  => route('admin.home_testimonials.destroy', $testimonial->id),
                                 'method' => 'DELETE',
                                 'style' => 'display: inline'
                                 ])

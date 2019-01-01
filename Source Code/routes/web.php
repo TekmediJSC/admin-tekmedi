@@ -25,6 +25,8 @@ Route::group([
 ], function () {
     Route::get('/', 'DashboardController@index');
     Route::resource('/home_services', 'Home\ServicesController');
-    Route::resource('/news', 'NewsController');
-    Route::resource('/services', 'ServiceController');
+    Route::resource('/home_works', 'Home\WorkController');
+    Route::resource('/home_whychoose', 'Home\WhyChooseController');
+    Route::resource('/home_testimonials', 'Home\TestimonialController');
+    Route::resource('/home_slides', 'Home\SlideController');
 });

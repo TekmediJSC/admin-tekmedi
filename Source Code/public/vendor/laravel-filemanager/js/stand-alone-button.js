@@ -16,7 +16,7 @@
                 target_preview.html('');
 
                 // set or change the preview image src
-                target_preview.css('margin-top', '15px').attr('src', url);
+                target_preview.css({'margin-top': '15px', 'margin-bottom': '15px'}).attr('src', url);
 
                 // trigger change event
                 target_preview.trigger('change');

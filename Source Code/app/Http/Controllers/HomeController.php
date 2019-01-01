@@ -22,9 +22,15 @@ class HomeController extends Controller {
      */
     public function index() {
         $services = Item::services()->get();
+        $works = Item::works()->get();
+        $chooses = Item::chooses()->get();
+        $testimonials = Item::testimonials()->get();
 
         return view('home.index')->with([
-            'services' => $services
+            'services' => $services,
+            'works' => $works,
+            'chooses' => $chooses,
+            'testimonials' => $testimonials
         ]);
     }
 }

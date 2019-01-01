@@ -3,19 +3,19 @@
 @section('title', 'TEKMEDI')
 
 @section('content_header')
-    <h1>Cập nhật dịch vụ</h1>
+    <h1>Cập nhật sản phẩm</h1>
 @stop
 
 @section('content')
     <div class="box">
         <div class="box-body">
             {!! Form::model($item, [
-                    'url' => route('admin.home_services.update', $item->id),
+                    'url' => route('admin.home_works.update', $item->id),
         			'method' => 'put',
                 ])
             !!}
-            @include('admin.home.services.form')
-            <button type="submit" class="btn btn-primary">Cập nhật dịch vụ</button>
+            @include('admin.home.works.form')
+            <button type="submit" class="btn btn-primary">Cập nhật sản phẩm</button>
             {!! Form::close() !!}
         </div>
     </div>

@@ -1,5 +1,6 @@
-{!! Form::myInput('text', 'title', 'Tên') !!}
-{!! Form::myInput('text', 'description', 'Mô tả') !!}
+{!! Form::myInput('text', 'title', 'Tiêu đề') !!}
+{!! Form::myInput('number', 'extra', 'Giá trị') !!}
+{!! Form::myInput('text', 'description', 'Đơn vị') !!}
 <div class="form-group">
     <label>Hình ảnh</label>
     <div class="input-group">

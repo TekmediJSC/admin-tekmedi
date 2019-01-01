@@ -150,7 +150,8 @@ return [
         'description' => 'Mô tả',
         'content' => 'Nội dung',
         'icon' => 'Biểu tượng',
-        'image' => 'Hình ảnh'
+        'image' => 'Hình ảnh',
+        'title' => 'Tiêu đề'
     ],
 
 ];

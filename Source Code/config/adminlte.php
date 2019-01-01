@@ -114,8 +114,24 @@ return [
             'icon' => 'home',
             'submenu' => [
                 [
+                    'text' => 'Slide',
+                    'url' => 'admin/home_slides',
+                ],
+                [
                     'text' => 'Dịch vụ',
                     'url' => 'admin/home_services',
+                ],
+                [
+                    'text' => 'Sản phẩm',
+                    'url' => 'admin/home_works',
+                ],
+                [
+                    'text' => 'Số liệu',
+                    'url' => 'admin/home_whychoose',
+                ],
+                [
+                    'text' => 'Trích dẫn',
+                    'url' => 'admin/home_testimonials',
                 ],
             ],
         ],
