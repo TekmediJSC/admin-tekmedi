@@ -21,12 +21,14 @@ class HomeController extends Controller {
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index() {
+        $slides = Item::slides()->get();
         $services = Item::services()->get();
         $works = Item::works()->get();
         $chooses = Item::chooses()->get();
         $testimonials = Item::testimonials()->get();
 
         return view('home.index')->with([
+            'slides' => $slides,
             'services' => $services,
             'works' => $works,
             'chooses' => $chooses,

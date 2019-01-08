@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#444B54;}
+	.st1{clip-path:url(#SVGID_2_);fill:#61B63D;}
+	.st2{clip-path:url(#SVGID_2_);fill:#4995EC;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="60" height="60"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st0" d="M59,0H1C0.4,0,0,0.4,0,1v11v10v26v11c0,0.6,0.4,1,1,1h24h24h10c0.6,0,1-0.4,1-1V22V1C60,0.4,59.6,0,59,0 M58,2
+		v19h-8v-9c0-0.6-0.4-1-1-1H2V2H58z M48,47H26V23h22V47z M2,23h22v24H2V23z M25,21H2v-8h46v8H25z M2,49h22v9H2V49z M26,49h22v9H26
+		V49z M58,58h-8V48V23h8V58z"/>
+	<rect x="4" y="25" class="st1" width="2" height="2"/>
+	<rect x="8" y="25" class="st1" width="2" height="2"/>
+	<rect x="12" y="25" class="st1" width="2" height="2"/>
+	<rect x="16" y="25" class="st1" width="2" height="2"/>
+	<rect x="20" y="25" class="st1" width="2" height="2"/>
+	<rect x="20" y="29" class="st1" width="2" height="2"/>
+	<rect x="20" y="34" class="st1" width="2" height="2"/>
+	<rect x="20" y="39" class="st1" width="2" height="2"/>
+	<rect x="4" y="29" class="st1" width="2" height="2"/>
+	<rect x="4" y="34" class="st1" width="2" height="2"/>
+	<rect x="4" y="39" class="st1" width="2" height="2"/>
+	<rect x="28" y="29" class="st2" width="2" height="2"/>
+	<rect x="28" y="34" class="st2" width="2" height="2"/>
+	<rect x="28" y="39" class="st2" width="2" height="2"/>
+	<rect x="44" y="29" class="st2" width="2" height="2"/>
+	<rect x="44" y="34" class="st2" width="2" height="2"/>
+	<rect x="44" y="39" class="st2" width="2" height="2"/>
+	<rect x="28" y="25" class="st2" width="2" height="2"/>
+	<rect x="32" y="25" class="st2" width="2" height="2"/>
+	<rect x="36" y="25" class="st2" width="2" height="2"/>
+	<rect x="40" y="25" class="st2" width="2" height="2"/>
+	<rect x="44" y="25" class="st2" width="2" height="2"/>
+	<rect x="28" y="43" class="st2" width="2" height="2"/>
+	<rect x="32" y="43" class="st2" width="2" height="2"/>
+	<rect x="36" y="43" class="st2" width="2" height="2"/>
+	<rect x="40" y="43" class="st2" width="2" height="2"/>
+	<rect x="44" y="43" class="st2" width="2" height="2"/>
+	<rect x="4" y="43" class="st1" width="2" height="2"/>
+	<rect x="8" y="43" class="st1" width="2" height="2"/>
+	<rect x="12" y="43" class="st1" width="2" height="2"/>
+	<rect x="16" y="43" class="st1" width="2" height="2"/>
+	<rect x="20" y="43" class="st1" width="2" height="2"/>
+	<polygon class="st1" points="16,36 16,34 14,34 14,32 12,32 12,34 10,34 10,36 12,36 12,38 14,38 14,36 	"/>
+	<polygon class="st2" points="34,34 34,36 36,36 36,38 38,38 38,36 40,36 40,34 38,34 38,32 36,32 36,34 	"/>
+</g>
+</svg>

@@ -108,7 +108,7 @@ return [
     */
 
     'menu' => [
-        'DANH MỤC CHUNG',
+        'TEKMEDI',
         [
             'text' => 'Trang chủ',
             'icon' => 'home',
@@ -135,6 +135,26 @@ return [
                 ],
             ],
         ],
+        [
+            'text' => 'Danh mục dịch vụ',
+            'icon' => 'th-list',
+            'url' => 'admin/service_categories'
+        ],
+        [
+            'text' => 'Dịch vụ',
+            'icon' => 'briefcase',
+            'url' => 'admin/services'
+        ],
+        [
+            'text' => 'Danh mục blog',
+            'icon' => 'th-list',
+            'url' => 'admin/blog_categories'
+        ],
+        [
+            'text' => 'Blog',
+            'icon' => 'newspaper-o',
+            'url' => 'admin/blogs'
+        ]
         /*
         [
             'text' => 'Multilevel',

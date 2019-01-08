@@ -14,7 +14,10 @@ use Illuminate\Database\Eloquent\Model;
  * @mixin \Eloquent
  */
 class Service extends Model {
+    protected $primaryKey = 'id';
+    protected $fillable = ['name', 'short_description', 'image', 'content', 'url', 'meta_description', 'meta_keyword', 'parent_id'];
+
     public function category() {
-        return $this->belongsTo('App\ServiceCategory');
+        return $this->belongsTo('App\ServiceCategory', 'parent_id');
     }
 }

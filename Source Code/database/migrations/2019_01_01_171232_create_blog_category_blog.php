@@ -11,7 +11,7 @@ class CreateBlogCategoryBlog extends Migration {
      * @return void
      */
     public function up() {
-        Schema::table('blog_category_blog', function (Blueprint $table) {
+        Schema::create('blog_category_blog', function (Blueprint $table) {
             $table->integer('blog_category_id')->unsigned();
             $table->integer('blog_id')->unsigned();
         });

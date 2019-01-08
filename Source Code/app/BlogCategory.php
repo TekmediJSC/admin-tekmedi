@@ -14,8 +14,11 @@ use Illuminate\Database\Eloquent\Model;
  * @mixin \Eloquent
  */
 class BlogCategory extends Model {
+    protected $primaryKey = 'id';
+    protected $fillable = ['name'];
 
     public function blogs() {
         return $this->belongsToMany('App\Blog');
     }
+
 }

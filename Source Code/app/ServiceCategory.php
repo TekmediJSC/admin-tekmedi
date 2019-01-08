@@ -3,7 +3,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Nestable\NestableTrait;
 
 /**
  * App\ServiceCategory
@@ -15,11 +14,19 @@ use Nestable\NestableTrait;
  * @mixin \Eloquent
  */
 class ServiceCategory extends Model {
-    use NestableTrait;
-    protected $parent = 'parent_id';
+    protected $primaryKey = 'id';
+    protected $fillable = ['name'];
 
     public function services() {
-        return $this->hasMany('App\Service');
+        return $this->hasMany('App\Service', 'parent_id');
+    }
+
+    public static function selectArray() {
+        $result = [];
+        foreach (ServiceCategory::all() as $category) {
+            $result[$category->id] = $category->name;
+        }
+        return $result;
     }
 
 }

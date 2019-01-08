@@ -2810,7 +2810,7 @@ transform:scaleX(1);
 }
 60% {
 -webkit-transform:scaleX(0.98);
-}
+
 }
 80% {
  -webkit-transform: scaleX(1.01);
@@ -2859,10 +2859,10 @@ transform:scaleX(1);
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
-	background: #ffffff;
+	background:black;
 }
 .slicknav_menu .slicknav_btn:hover .slicknav_icon-bar {
-	background: #ffffff;
+	background: black;
 }
 .slicknav_menu:before {
 	content: " ";
@@ -2887,11 +2887,11 @@ transform:scaleX(1);
 	border-top: 1px solid rgba(0,0,0,0.04);
 }
 .slicknav_nav .slicknav_arrow {
-    background: #000 none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     float: right;
     text-align: center;
     width: 35px;
-    color: #ccc;
+    color: black;
 }
 
 .navbar-brand {
@@ -2923,8 +2923,8 @@ transform:scaleX(1);
 	box-sizing: border-box;
 }
 .slicknav_menu ul {
-	    opacity: 0.98;
-	background: #1f1f1f;
+	opacity: 0.98;
+	background: white;
 }
 .slicknav_menu * {
 	box-sizing: border-box;
@@ -2935,7 +2935,6 @@ transform:scaleX(1);
 	text-shadow: 0 1px 3px #000;
 }
 .slicknav_btn {
-	border: 1px solid;
 	border-radius: 0;
 	margin: 16px 15px;
 	-webkit-transition: all 0.2s linear;
@@ -2962,12 +2961,13 @@ transform:scaleX(1);
 .slicknav_nav .slicknav_row {
 	padding: 5px 10px;
 	margin: 2px 0px;
+	background: white;
 }
 .slicknav_nav a {
 	padding: 5px 10px;
 	margin: 0px;
 	text-decoration: none;
-	color: #cecece;
+	color: black;
 }
 .slicknav_nav .slicknav_txtnode {
 	margin-left: 15px;
@@ -3320,7 +3320,7 @@ opacity:0;
 }
 	
 .height100 {
-    height: 70%;
+    height: 100%;
 }
 	.section-title {
     font-size: 22px!important;
@@ -3845,8 +3845,7 @@ font-weight: 500;
     width: 43px;
 }
 	.slicknav_nav a {
-   font-weight: 700!important;
-    color: #fff!important;
+    color: black!important;
 }
 	
 	.section-title {
@@ -4235,7 +4234,6 @@ position: relative;
 	
 	
 	.slicknav_btn {
-    border: 1px solid #fff;
     border-radius: 0;
     float: right;
     margin: 14px 15px!important;
@@ -4537,26 +4535,25 @@ position: relative;
 }
 	
 	.slicknav_menu .slicknav_btn:hover .slicknav_icon-bar {
-    background: #ffffff;
+    background: black;
 }
 	.slicknav_btn {
-    border: 1px solid #fff;
     border-radius: 0;
     margin: 16px 15px;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    float: right;
+	float: right;
 }
 	
 	.slicknav_icon{
 		       float: right;
     margin-top: 2px!important;
     margin-right: 0px!important;
-    padding-top: 13px;
     padding-bottom: 15px;
-    width: 42px;
+	width: 42px;
+	margin-top: 20px;
 }
 	
 	ul.social-network li {
@@ -4697,7 +4694,7 @@ position: relative;
 }
 	
 	ul li>ul>li>a:hover, ul li>ul>li>a .active {
-    background: #000!important;
+    background: white!important;
 }
 	.ourflexi.pl-20.pr-20.pb-20 .pl-80m {
     padding-left: 17px!important;
@@ -4939,8 +4936,6 @@ footer .footer-widget {
 }
 
 @media (max-width: 767px) {
-	
-	
 	.hirecar {
 	display: none;
 }
@@ -5079,7 +5074,7 @@ and (orientation : landscape) {
 
 
 .active.slicknav_collapsed, .slicknav_parent.slicknav_open ul{
-	background: #545454!important;
+	background: white !important;
 }
 
 
@@ -5292,7 +5287,7 @@ and (max-device-width : 667px) {
 }
 	
 .height100 {
-    height: 70%;
+    height: 100%;
 }
 	.section-title {
     font-size: 22px!important;

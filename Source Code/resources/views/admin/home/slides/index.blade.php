@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'TEKMEDI')
+@section('title', 'TEKMEDI | Home | Slide')
 
 @section('content_header')
     <h1>Slide</h1>
@@ -29,12 +29,12 @@
                             <img src="{{ \App\Helpers\Url::LFMUrl($slide->image) }}" style="max-height: 64px">
                         </td>
                         <td width="150px">
-                            <a href="{{ route('admin.home_testimonials.edit', $slide->id) }}" class="btn btn-warning">
+                            <a href="{{ route('admin.home_slides.edit', $slide->id) }}" class="btn btn-warning">
                                 <i class="fa fa-edit"></i>
                             </a>
                             {!! Form::open([
                                 'class'=>'delete',
-                                'url'  => route('admin.home_testimonials.destroy', $slide->id),
+                                'url'  => route('admin.home_slides.destroy', $slide->id),
                                 'method' => 'DELETE',
                                 'style' => 'display: inline'
                                 ])

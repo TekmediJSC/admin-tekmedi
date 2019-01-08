@@ -148,10 +148,12 @@ return [
         'name' => 'Tên',
         'password' => 'Mật khẩu',
         'description' => 'Mô tả',
+        'short_description' => 'Mô tả ngắn',
         'content' => 'Nội dung',
         'icon' => 'Biểu tượng',
         'image' => 'Hình ảnh',
-        'title' => 'Tiêu đề'
+        'title' => 'Tiêu đề',
+        'parent_id' => 'Danh mục'
     ],
 
 ];

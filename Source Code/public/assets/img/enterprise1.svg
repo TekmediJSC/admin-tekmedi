@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 53 60" style="enable-background:new 0 0 53 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#444B54;}
+	.st1{clip-path:url(#SVGID_2_);fill:#4995EC;}
+	.st2{clip-path:url(#SVGID_2_);fill:#61B63D;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="53" height="60"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st0" d="M53,49L53,49V1c0-0.6-0.4-1-1-1H7C6.4,0,6,0.4,6,1v14h2V2h43v46h-9c-0.6,0-1,0.4-1,1v9H8V43H6v16
+		c0,0.6,0.4,1,1,1h35c0.3,0,0.5-0.1,0.7-0.3l10-10c0.1-0.1,0.1-0.2,0.2-0.3v-0.1C53,49.2,53,49.1,53,49 M43,50h6.6l-3.3,3.3L43,56.6
+		V50z"/>
+	<path class="st1" d="M13,38h6h4v-2h-3V17c0-0.6-0.4-1-1-1h-6c-0.6,0-1,0.4-1,1v6H7c-0.6,0-1,0.4-1,1v4H1c-0.6,0-1,0.4-1,1v8
+		c0,0.6,0.4,1,1,1h6H13z M14,18h4v18h-4V24V18z M8,25h4v11H8v-7V25z M2,30h4v6H2V30z"/>
+	<path class="st2" d="M47,24V7c0-0.6-0.4-1-1-1H25c-0.6,0-1,0.4-1,1v17c0,0.6,0.4,1,1,1h21C46.6,25,47,24.6,47,24 M45,12H33V8h12V12
+		z M31,12h-5V8h5V12z M26,14h5v9h-5V14z M33,14h12v9H33V14z"/>
+	<rect x="25" y="28" class="st0" width="21" height="2"/>
+	<rect x="25" y="33" class="st0" width="21" height="2"/>
+	<rect x="25" y="38" class="st0" width="21" height="2"/>
+	<rect x="11" y="6" class="st0" width="6" height="2"/>
+	<rect x="11" y="11" class="st0" width="9" height="2"/>
+	<rect x="11" y="43" class="st0" width="7" height="2"/>
+	<rect x="21" y="43" class="st0" width="7" height="2"/>
+	<rect x="31" y="43" class="st0" width="7" height="2"/>
+	<rect x="11" y="48" class="st0" width="7" height="2"/>
+	<rect x="21" y="48" class="st0" width="7" height="2"/>
+	<rect x="31" y="48" class="st0" width="7" height="2"/>
+	<rect x="11" y="53" class="st0" width="7" height="2"/>
+	<rect x="21" y="53" class="st0" width="7" height="2"/>
+	<rect x="31" y="53" class="st0" width="7" height="2"/>
+</g>
+</svg>

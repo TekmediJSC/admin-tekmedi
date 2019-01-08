@@ -14,6 +14,8 @@ use Illuminate\Database\Eloquent\Model;
  * @mixin \Eloquent
  */
 class Blog extends Model {
+    protected $primaryKey = 'id';
+
     public function blogCategories() {
         return $this->belongsToMany('App\BlogCategory');
     }

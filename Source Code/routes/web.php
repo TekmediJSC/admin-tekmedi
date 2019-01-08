@@ -16,6 +16,7 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/service/{id}', 'ServiceController@index')->name('service');
 
 Route::group([
     'prefix' => 'admin',
@@ -24,9 +25,15 @@ Route::group([
     'middleware' => 'role:' . Role::ADMIN
 ], function () {
     Route::get('/', 'DashboardController@index');
+
     Route::resource('/home_services', 'Home\ServicesController');
     Route::resource('/home_works', 'Home\WorkController');
     Route::resource('/home_whychoose', 'Home\WhyChooseController');
     Route::resource('/home_testimonials', 'Home\TestimonialController');
     Route::resource('/home_slides', 'Home\SlideController');
+
+    Route::resource('/service_categories', 'ServiceCategoryController');
+    Route::resource('/services', 'ServiceController');
+    Route::resource('/blog_categories', 'BlogCategoryController');
+    Route::resource('/blogs', 'BlogController');
 });

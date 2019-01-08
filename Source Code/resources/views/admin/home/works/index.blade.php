@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'TEKMEDI')
+@section('title', 'TEKMEDI | Home | Sản phẩm')
 
 @section('content_header')
     <h1>Sản phẩm</h1>

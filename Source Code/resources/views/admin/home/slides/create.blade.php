@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'TEKMEDI')
+@section('title', 'TEKMEDI | Home | Thêm slide')
 
 @section('content_header')
     <h1>Thêm slide</h1>
