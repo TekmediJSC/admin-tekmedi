@@ -146,14 +146,14 @@ return [
             'url' => 'admin/services'
         ],
         [
-            'text' => 'Danh mục blog',
+            'text' => 'Danh mục tin tức',
             'icon' => 'th-list',
-            'url' => 'admin/blog_categories'
+            'url' => 'admin/news_categories'
         ],
         [
-            'text' => 'Blog',
+            'text' => 'Tin tức',
             'icon' => 'newspaper-o',
-            'url' => 'admin/blogs'
+            'url' => 'admin/news'
         ]
         /*
         [

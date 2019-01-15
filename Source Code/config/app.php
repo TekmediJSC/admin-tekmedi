@@ -176,7 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
-        Unisharp\Ckeditor\ServiceProvider::class
+        Unisharp\Ckeditor\ServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
     ],
 
     /*
@@ -227,7 +228,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'Role' => App\Role::class
+        'Role' => App\Role::class,
+        'Datatables' => Yajra\Datatables\Facades\Datatables::class,
     ],
 
 ];

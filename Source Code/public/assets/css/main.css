@@ -1,61 +1,4 @@
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-SemiBold.eot');
-	src: url('../fonts/Raleway-SemiBoldd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-SemiBold.woff') format('woff'), url('../fonts/Raleway-SemiBold.ttf') format('truetype');
-	font-weight: 600;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-Regular.eot');
-	src: url('../fonts/Raleway-Regulard41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-ExtraLight.eot');
-	src: url('../fonts/Raleway-ExtraLightd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-ExtraLight.woff') format('woff'), url('../fonts/Raleway-ExtraLight.ttf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-Light.eot');
-	src: url('../fonts/Raleway-Lightd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Light.woff') format('woff'), url('../fonts/Raleway-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Avenir Next LT Pro';
-	src: url('../fonts/AvenirNextLTPro-UltLt.eot');
-	src: url('../fonts/AvenirNextLTPro-UltLtd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-UltLt.woff') format('woff'), url('../fonts/AvenirNextLTPro-UltLt.ttf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Avenir Next LT Pro';
-	src: url('../fonts/AvenirNextLTPro-Demi.eot');
-	src: url('../fonts/AvenirNextLTPro-Demid41d.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'), url('../fonts/AvenirNextLTPro-Demi.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Avenir Next LT Pro';
-	src: url('../fonts/AvenirNextLTPro-Light.eot');
-	src: url('../fonts/AvenirNextLTPro-Lightd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Light.woff') format('woff'), url('../fonts/AvenirNextLTPro-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Avenir Next LT Pro';
-	src: url('../fonts/AvenirNextLTPro-Regular.eot');
-	src: url('../fonts/AvenirNextLTPro-Regulard41d.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
 body {
-	font-family: 'Avenir Next LT Pro';
 	background: #fff;
 	font-size: 14px;
 	font-weight: 400;
@@ -135,12 +78,10 @@ body {
 	margin-bottom: 50px;
 }
 h1, h2, h3, h4 {
-	font-family: 'Raleway';
 	font-weight: 400;
 }
 p {
 	font-size: 14px;
-	font-family: 'Avenir Next LT Pro';
 	font-weight: 300;
 }
 a {
@@ -196,7 +137,6 @@ button {
 	padding-top: 7px;
 	padding-bottom: 7px;
 	font-weight: 100;
-	font-family: Raleway;
 	text-transform: capitalize;
 }
 .btn-common:before {
@@ -617,7 +557,7 @@ i:hover {
 	text-shadow: none;
 }
 #carousel-area .carousel-item .carousel-caption h2 {
-	font-family: 'Raleway';
+	font-family: '';
 	font-size: 44px;
 	-webkit-animation-name: fadeInUp;
 	animation-name: fadeInUp;
@@ -625,7 +565,7 @@ i:hover {
 	animation-duration: 0.8s;
 }
 #carousel-area .carousel-item .carousel-caption h3 {
-	font-family: 'Avenir Next LT Pro';
+	;
 	font-size: 22px;
 	color: #fff;
 	font-weight: 100;
@@ -1596,7 +1536,7 @@ transform:scale(0.9);
 }
 #cool-facts .fact-count h3 {
 	color: #fff;
-	font-family: 'Avenir Next LT Pro';
+	;
 	font-size: 31px;
 	line-height: 21px;
 	text-transform: uppercase;
@@ -3634,7 +3574,7 @@ ul.pagination a.page-link {
 }
 #hero1 h2 {
 	color: #fff;
-	font-family: 'Avenir Next LT Pro';
+	;
 	font-weight: 200;
 	margin-bottom: 19px;
 	margin-top: 20px;
@@ -3643,7 +3583,7 @@ ul.pagination a.page-link {
 }
 #hero1 h3 {
 	color: #fff;
-	font-family: 'Avenir Next LT Pro';
+	;
 	font-weight: 200;
 	margin-bottom: 19px;
 	margin-top: 20px;
@@ -4206,7 +4146,6 @@ a.socialIcon:hover, .socialHoverClass {
 .key h4 {
 	color: #444b54;
 	font-size: 18px;
-	font-family: Raleway;
 	margin-top: 13px;
 	margin-bottom: 13px;
 }
@@ -4436,7 +4375,6 @@ a.socialIcon:hover, .socialHoverClass {
 .service__title {
 	color: #444b54;
 	font-size: 18px;
-	font-family: Raleway;
 	margin-top: 13px;
 	margin-bottom: 13px;
 }
@@ -7172,7 +7110,7 @@ d83841
 }
 .fontamount {
 	font-size: 75px;
-	font-family: 'Avenir Next LT Pro'
+	
 }
 .damakhanlaptop {
 	background-image: url(../img/damakan5.png);
@@ -7313,7 +7251,7 @@ d83841
 }
 .fontamount {
 	font-size: 53px;
-	font-family: 'Avenir Next LT Pro';
+	;
 }
 #imageContainer1 {
 	min-height: 625px!important;
@@ -8045,7 +7983,6 @@ d83841
 	transition: all 0.3s ease-in-out;
 }
 .hero-area .title, .hero-area .subtitle {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	color: #fff;
 }
@@ -10216,7 +10153,7 @@ input:focus, textarea:focus {
 
 
 .table_block h1, h2, h3, h4 {
-    font-family: 'Avenir Next LT Pro';
+    ;
     font-weight: 400;
 }
 

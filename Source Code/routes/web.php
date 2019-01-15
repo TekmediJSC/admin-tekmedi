@@ -17,6 +17,9 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/service/{id}', 'ServiceController@index')->name('service');
+Route::get('/news', 'NewsController@index')->name('news');
+Route::get('/news/{id}', 'NewsController@index')->name('news_category');
+Route::get('/news/detail/{id}', 'NewsController@detail')->name('news_detail');
 
 Route::group([
     'prefix' => 'admin',
@@ -34,6 +37,9 @@ Route::group([
 
     Route::resource('/service_categories', 'ServiceCategoryController');
     Route::resource('/services', 'ServiceController');
-    Route::resource('/blog_categories', 'BlogCategoryController');
-    Route::resource('/blogs', 'BlogController');
+    Route::resource('/news_categories', 'NewsCategoryController');
+    Route::resource('/news', 'NewsController');
+
+    Route::get('/news_data', 'DataTableController@anyData');
+
 });

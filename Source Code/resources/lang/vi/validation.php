@@ -153,7 +153,8 @@ return [
         'icon' => 'Biểu tượng',
         'image' => 'Hình ảnh',
         'title' => 'Tiêu đề',
-        'parent_id' => 'Danh mục'
+        'parent_id' => 'Danh mục',
+        'news_category_id' => 'Danh mục'
     ],
 
 ];

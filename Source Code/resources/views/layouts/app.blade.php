@@ -25,6 +25,8 @@
     <link href="{{ asset('/assets/css/responsive.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('/assets/fonts/font-awesome/font-awesome.min.css') }}" media="screen" rel="stylesheet">
     <link href="{{ asset('/assets/extras/normalize.css')  }}" rel="stylesheet" type="text/css">
+    @yield('css')
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
     </script>
@@ -34,26 +36,25 @@
 </head>
 
 <body>
-<header id="header-wrap" class="height100">
 
-    @include('partials.nav')
+@include('partials.nav')
 
-    @yield('content')
+@yield('content')
 
-    @include('partials.footer')
-    <a class="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+@include('partials.footer')
+<a class="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
 
 
-    <!--Start Common Javascript -->
-    <script src="{{ asset('assets/js/jquery-min.js')}}"></script>
-    <script src="{{ asset('assets/js/tether.min.js')  }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js')  }}"></script>
-    <script src="{{ asset('assets/js/wow.js')  }}"></script>
-    <script src="{{ asset('assets/js/owl.carousel.js')  }}"></script>
-    <script src="{{ asset('assets/js/waypoints.min.js')  }}"></script>
-    <script src="{{ asset('assets/js/jquery.slicknav.js')  }}"></script>
-    <script src="{{ asset('assets/js/main.js')  }}"></script>
-    <!--End Common Javascript -->
+<!--Start Common Javascript -->
+<script src="{{ asset('assets/js/jquery-min.js')}}"></script>
+<script src="{{ asset('assets/js/tether.min.js')  }}"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js')  }}"></script>
+<script src="{{ asset('assets/js/wow.js')  }}"></script>
+<script src="{{ asset('assets/js/owl.carousel.js')  }}"></script>
+<script src="{{ asset('assets/js/waypoints.min.js')  }}"></script>
+<script src="{{ asset('assets/js/jquery.slicknav.js')  }}"></script>
+<script src="{{ asset('assets/js/main.js')  }}"></script>
+<!--End Common Javascript -->
 
 
 </body>
@@ -72,5 +73,6 @@
     });
 </script>
 
+@yield('js')
 
 </html>

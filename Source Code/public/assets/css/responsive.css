@@ -4171,7 +4171,6 @@ position: relative;
 }
 	#cool-facts .fact-count h3 {
     color: #fff;
-    font-family: 'Avenir Next LT Pro';
     font-size: 23px;
     line-height: 21px;
     text-transform: uppercase;
@@ -4358,7 +4357,6 @@ position: relative;
 	}
 	.fontamount{
 		    font-size: 50px;
-    font-family: 'Avenir Next LT Pro';
 
 	}
 	
@@ -4716,7 +4714,6 @@ padding: 20px!important;
 	
 	p {
     font-size: 14px;
-    font-family: 'Avenir Next LT Pro';
     font-weight: 500;
 }
 	

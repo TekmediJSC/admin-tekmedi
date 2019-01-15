@@ -18,7 +18,7 @@
         "laravelcollective/html": "^5.7",
         "unisharp/laravel-ckeditor": "^4.7",
         "unisharp/laravel-filemanager": "~1.8",
-        "yajra/laravel-datatables-oracle": "^8.13"
+        "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
