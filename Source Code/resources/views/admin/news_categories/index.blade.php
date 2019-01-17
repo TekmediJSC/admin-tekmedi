@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'TEKMEDI')
+@section('title', 'TEKMEDI | Danh mục tin tức')
 
 @section('content_header')
-    <h1>Danh mục blog</h1>
+    <h1>Danh mục tin tức</h1>
 @stop
 
 @section('content')

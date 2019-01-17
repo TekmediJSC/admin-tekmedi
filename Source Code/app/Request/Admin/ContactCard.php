@@ -2,9 +2,10 @@
 
 namespace App\Request\Admin;
 
-class Blog {
+class ContactCard {
     public static function rules() {
         return [
+            'name' => 'required',
         ];
     }
 }

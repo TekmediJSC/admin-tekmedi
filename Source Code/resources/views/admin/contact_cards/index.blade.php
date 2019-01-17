@@ -1,41 +1,40 @@
 @extends('adminlte::page')
 
-@section('title', 'TEKMEDI | Tin tức')
+@section('title', 'TEKMEDI | Danh sách liên hệ')
 
 @section('content_header')
-    <h1>Tin tức</h1>
+    <h1>Danh sách liên hệ</h1>
 @stop
 
 @section('content')
     <!-- Default box -->
     <div class="box">
         <div class="box-header with-border">
-            <a href="{{ route('admin.news.create')  }}" class="btn btn-success">Thêm mới</a>
+            <a href="{{ route('admin.contact_cards.create')  }}" class="btn btn-success">Thêm mới</a>
         </div>
         <div class="box-body">
             <table class="table table-bordered">
                 <tbody>
                 <tr>
-                    <th>Hình ảnh</th>
-                    <th>Tiêu đề</th>
-                    <th>Danh mục</th>
-                    <th>Mô tả ngắn</th>
+                    <th>Tên</th>
+                    <th>Chức danh</th>
+                    <th>Email</th>
+                    <th>SĐT</th>
                     <th>Hành động</th>
                 </tr>
-                @foreach($news as $item)
+                @foreach($cards as $item)
                     <tr>
-                        <td>
-                            <img src="{{App\Helpers\Url::LFMUrl($item->image)}}" style="height: 96px"/></td>
-                        <td>{{$item->title}}</td>
-                        <td>{{$item->category->name}}</td>
-                        <td>{{$item->short_description}}</td>
+                        <td>{{ $item->name }}</td>
+                        <td>{{ $item->position }}</td>
+                        <td>{{ $item->email }}</td>
+                        <td>{{ $item->phone }}</td>
                         <td width="150px">
-                            <a href="{{ route('admin.news.edit', $item->id) }}" class="btn btn-warning">
+                            <a href="{{ route('admin.contact_cards.edit', $item->id) }}" class="btn btn-warning">
                                 <i class="fa fa-edit"></i>
                             </a>
                             {!! Form::open([
                                 'class'=>'delete',
-                                'url'  => route('admin.news.destroy', $item->id),
+                                'url'  => route('admin.contact_cards.destroy', $item->id),
                                 'method' => 'DELETE',
                                 'style' => 'display: inline'
                                 ])
@@ -51,7 +50,6 @@
             </table>
         </div>
         <!-- /.box-body -->
-        {!! $news->links('admin.partials.pagination') !!}
     </div>
     <!-- /.box -->
 @stop

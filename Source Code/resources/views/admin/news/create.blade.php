@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'TEKMEDI')
+@section('title', 'TEKMEDI | Thêm tin tức')
 
 @section('content_header')
-    <h1>Thêm dịch vụ</h1>
+    <h1>Thêm tin tức</h1>
 @stop
 
 @section('content')

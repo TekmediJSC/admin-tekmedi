@@ -154,6 +154,22 @@ return [
             'text' => 'Tin tức',
             'icon' => 'newspaper-o',
             'url' => 'admin/news'
+        ],
+        [
+            'text' => 'Liên hệ từ khách hàng',
+            'icon' => 'envelope-open-o',
+            'url' => 'admin/contacts'
+        ],
+        [
+            'text' => 'Danh sách liên hệ',
+            'icon' => 'address-card-o',
+            'url' => 'admin/contact_cards'
+        ],
+        'KHÁC',
+        [
+            'text' => 'Mạng xã hội',
+            'icon' => 'font-awesome',
+            'url' => 'admin/socials'
         ]
         /*
         [

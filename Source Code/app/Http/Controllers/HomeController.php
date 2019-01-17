@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Item;
+use App\News;
 
 class HomeController extends Controller {
     /**
@@ -26,13 +27,15 @@ class HomeController extends Controller {
         $works = Item::works()->get();
         $chooses = Item::chooses()->get();
         $testimonials = Item::testimonials()->get();
+        $news = News::orderBy('created_at', 'DESC')->take(3)->get();
 
         return view('home.index')->with([
             'slides' => $slides,
             'services' => $services,
             'works' => $works,
             'chooses' => $chooses,
-            'testimonials' => $testimonials
+            'testimonials' => $testimonials,
+            'news' => $news
         ]);
     }
 }

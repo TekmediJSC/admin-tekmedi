@@ -48,6 +48,7 @@
             </table>
         </div>
         <!-- /.box-body -->
+        {!! $services->links('admin.partials.pagination') !!}
     </div>
     <!-- /.box -->
 @stop

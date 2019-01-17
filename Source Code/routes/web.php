@@ -20,6 +20,8 @@ Route::get('/service/{id}', 'ServiceController@index')->name('service');
 Route::get('/news', 'NewsController@index')->name('news');
 Route::get('/news/{id}', 'NewsController@index')->name('news_category');
 Route::get('/news/detail/{id}', 'NewsController@detail')->name('news_detail');
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::post('/contact', 'ContactController@post')->name('post_contact');
 
 Route::group([
     'prefix' => 'admin',
@@ -39,7 +41,10 @@ Route::group([
     Route::resource('/services', 'ServiceController');
     Route::resource('/news_categories', 'NewsCategoryController');
     Route::resource('/news', 'NewsController');
+    Route::resource('/contacts', 'ContactController');
+    Route::resource('/contact_cards', 'ContactCardController');
 
-    Route::get('/news_data', 'DataTableController@anyData');
+    Route::get('/socials', 'SocialController@index')->name('socials');
+    Route::post('/socials', 'SocialController@update');
 
 });

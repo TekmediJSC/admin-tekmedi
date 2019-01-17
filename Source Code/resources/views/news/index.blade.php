@@ -131,7 +131,7 @@
                     <div class="vw-sticky-sidebar-wrapper">
                         <div class="vw-sticky-sidebar">
                             <div id="search-2" class="widget widget_search">
-                                <form role="search" method="get" class="search-form">
+                                <form role="search" method="get" class="search-form" action="{{route('news')}}">
                                     <label> <span class="screen-reader-text">Tìm kiếm:</span>
                                         <input type="search" class="search-field" placeholder="Từ khóa &hellip;"
                                                value="" name="s" title="Tìm kiếm:"/> </label>

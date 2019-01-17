@@ -4,19 +4,18 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Service;
-use App\ServiceCategory;
+use App\ContactCard;
 
-class ServiceController extends Controller {
+class ContactCardController extends Controller {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        $services = Service::orderByDesc('id')->paginate(15);
-        return view('admin.services.index')->with([
-            'services' => $services
+        $cards = ContactCard::orderBy('created_at', 'desc')->get();
+        return view('admin.contact_cards.index')->with([
+            'cards' => $cards
         ]);
     }
 
@@ -26,10 +25,7 @@ class ServiceController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function create() {
-        $categories = ServiceCategory::selectArray();
-        return view('admin.services.create')->with([
-            'categories' => $categories
-        ]);
+        return view('admin.contact_cards.create');
     }
 
     /**
@@ -39,8 +35,8 @@ class ServiceController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request) {
-        $this->validate($request, \App\Request\Admin\Service::rules());
-        Service::create($request->all());
+        $this->validate($request, \App\Request\Admin\ContactCard::rules());
+        ContactCard::create($request->all());
         return back()->withSuccess('Đã thêm thành công');
     }
 
@@ -61,11 +57,9 @@ class ServiceController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function edit($id) {
-        $item = Service::findOrFail($id);
-        $categories = ServiceCategory::selectArray();
-        return view('admin.services.edit')->with([
-            'item' => $item,
-            'categories' => $categories
+        $item = ContactCard::findOrFail($id);
+        return view('admin.contact_cards.edit')->with([
+            'item' => $item
         ]);
     }
 
@@ -77,10 +71,10 @@ class ServiceController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id) {
-        $this->validate($request, \App\Request\Admin\Service::rules());
-        $item = Service::findOrFail($id);
+        $this->validate($request, \App\Request\Admin\ContactCard::rules());
+        $item = ContactCard::findOrFail($id);
         $item->update($request->all());
-        return redirect()->route('admin.services.index')->withSuccess('Đã cập nhật thành công');
+        return redirect()->route('admin.contact_cards.index')->withSuccess('Đã cập nhật thành công');
     }
 
     /**
@@ -90,8 +84,9 @@ class ServiceController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function destroy($id) {
-        $item = Service::findOrFail($id);
-        Service::destroy($item->id);
+        $item = ContactCard::findOrFail($id);
+        ContactCard::destroy($item->id);
         return back()->withSuccess('Đã xóa thành công');
+
     }
 }

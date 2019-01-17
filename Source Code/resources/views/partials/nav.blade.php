@@ -40,7 +40,7 @@
                         <a class="nav-link" href="{{ route('news')  }}">Tin tức</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="contact/contacts.html">Liên hệ</a>
+                        <a class="nav-link" href="{{ route('contact') }}">Liên hệ</a>
                     </li>
                     <!--
                     <li class="nav-item dropdown">
